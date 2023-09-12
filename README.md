@@ -5,7 +5,7 @@
 
 ## About React Native
 
-React Native is a powerful JavaScript framework for building native mobile applications for iOS and Android using a single codebase. It's an excellent choice for developers looking to create cross-platform mobile apps with a focus on performance and user experience.
+React Native is a powerful JavaScript framework for building native mobile applications for iOS and Android using a single codebase. It's an excellent choice for developers looking to create cross-platform mobile apps with a focus on performance and user experience. You could visit the official docs for it -> [here](https://reactnative.dev/) 
 
 ## Repository Contents
 
