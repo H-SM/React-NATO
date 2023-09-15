@@ -39,7 +39,5 @@ We welcome contributions from the community! If you have a project, code sample,
 
 If you have questions, encounter issues, or need assistance with React Native, feel free to [create an issue](https://github.com/H-SM/react-NATO/issues). We're here to help!
 
-## License
 
-
-Happy learning and coding in React Native!
+*Happy learning and coding in React Native!*
