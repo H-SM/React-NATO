@@ -1,5 +1,7 @@
+import { trigger } from "react-native-haptic-feedback";
 import React, { useState } from 'react';
 import type { PropsWithChildren } from 'react';
+
 import {
   Image,
   ImageSourcePropType,
@@ -20,6 +22,15 @@ type DiceProps = PropsWithChildren<{
   imageUrl: ImageSourcePropType
 }>//this will pass down the images, better way to do it (than props directly)
 //looks over the type of url we give
+
+// Optional configuration
+const options = {
+  enableVibrateFallback: true,
+  ignoreAndroidSystemSettings: false,
+};
+
+// Trigger haptic feedback
+// trigger("impactLight", options);
 
 const Dice = ({ imageUrl }: DiceProps): JSX.Element => {
   return (
@@ -60,6 +71,7 @@ function App(): JSX.Element {
         setDiceFace(DiceOne);
         break;
     }
+    trigger("impactLight", options);
   }
   return (
     <View style={styles.container}>
