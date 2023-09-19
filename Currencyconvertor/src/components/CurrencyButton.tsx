@@ -21,7 +21,7 @@ const CurrencyButton = (props : CurrencyButtonProps): JSX.Element => {
 } 
 
 const styles = StyleSheet.create({
-    buttonContainer : { 
+        buttonContainer : { 
         alignItems : "center",
     },
     flag : {
