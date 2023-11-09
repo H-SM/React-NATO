@@ -10,6 +10,6 @@ npx react-native run-android
 ```
 
 things to fix -> 
-- sdk path in local.porperties file
+- sdk path in local.properties file
 - look over the gradle problem in the codebase TODO:
-- look ove rhtisdoc for haptic -> [click here](https://www.npmjs.com/package/react-native-haptic-feedback)
+- look over this doc for haptic -> [click here](https://www.npmjs.com/package/react-native-haptic-feedback)
