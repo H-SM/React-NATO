@@ -1,7 +1,8 @@
-
 import React from 'react'
 import { View, StyleSheet, Pressable } from 'react-native'
 import TrackPlayer, { State, usePlaybackState } from 'react-native-track-player'
+
+
 import Icon from 'react-native-vector-icons/MaterialIcons'
 
 import { playbackService } from '../../musicPlayerServices'
