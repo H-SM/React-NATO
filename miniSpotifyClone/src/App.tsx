@@ -20,6 +20,7 @@ import {
 
 
 import { setupPlayer, addTrack } from "../musicPlayerServices"
+import MusicPlayer from './screens/MusicPlayer';
 function App(): JSX.Element {
   const [isPlayerReady, setIsPlayerReady] = useState(false);
   async function setup() {
@@ -41,12 +42,10 @@ function App(): JSX.Element {
     )
   }
   return (
-    <SafeAreaView>
-      <StatusBar
-        
-      />
-      <Text>ayo!</Text>
-    </SafeAreaView>
+    <View style={styles.constainer}>
+        <StatusBar barStyle={"light-content"}/>
+        <MusicPlayer/>
+    </View>
   );
 }
 
